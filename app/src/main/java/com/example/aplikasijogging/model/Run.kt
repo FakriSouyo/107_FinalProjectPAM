@@ -10,10 +10,10 @@ import java.util.Date
 data class Run(
     var img: Bitmap,
     var timestamp: Date = Date(),
-    var kecepatanKMH: Float = 0f,
-    var jarakMeters: Int = 0,
-    var durasiMillis: Long = 0L,
-    var kaloriBurn: Int = 0,
+    var acceptanceKMH: Float = 0f,
+    var jarMeters: Int = 0,
+    var durablesMillis: Long = 0L,
+    var caloricBurn: Int = 0,
 
     @PrimaryKey(autoGenerate = true)
     val id: Int = 0
