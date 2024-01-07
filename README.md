@@ -27,7 +27,6 @@ Jogging App adalah aplikasi pencatatan jogging yang memungkinkan pengguna mencat
 - **Aktor:** Pengguna
 - **Deskripsi:** Pengguna melihat riwayat sesi jogging mereka.
   - Pengguna membuka aplikasi dan masuk.
-  - Pengguna memilih opsi "Aktivitas" dari menu utama.
   - Aplikasi menampilkan daftar sesi jogging sebelumnya.
   - Pengguna memilih satu sesi untuk melihat detailnya.
 
@@ -44,7 +43,7 @@ Jogging App adalah aplikasi pencatatan jogging yang memungkinkan pengguna mencat
 - **Deskripsi:** Pengguna melihat ringkasan informasi terkait aktivitas jogging mereka.
   - Pengguna membuka aplikasi dan masuk.
   - Pengguna melihat statistik di profil yang mencakup jarak yang ditempuh, kalori yang terbakar, dan waktu yang dihabiskan.
-  - Aplikasi menampilkan grafik atau statistik yang memberikan pandangan visual tentang perkembangan pengguna seiring waktu.
+  - Aplikasi menampilkan statistik yang memberikan pandangan visual tentang perkembangan pengguna seiring waktu.
 
 ### 6. Mengubah Data Informasi
 - **Aktor:** Pengguna
