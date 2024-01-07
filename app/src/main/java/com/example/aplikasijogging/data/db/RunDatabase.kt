@@ -1,14 +1,15 @@
-package com.example.aplikasijogging.data
+package com.example.aplikasijogging.data.db
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import androidx.room.TypeConverters
+import com.example.aplikasijogging.data.db.Dao.RunDao
 import com.example.aplikasijogging.model.Run
 
 @Database(
     entities = [Run::class],
     version = 1,
 )
+
 
 abstract class RunDatabase : RoomDatabase() {
     companion object {
