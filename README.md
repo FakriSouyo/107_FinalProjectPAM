@@ -1,14 +1,14 @@
 # Project Name
 Jogging App
 
-##Description
+#Description
 Jogging App adalah aplikasi pencatatan jogging yang memungkinkan pengguna mencatat dan melacak aktivitas jogging mereka, termasuk jarak yang ditempuh, 
 kalori yang terbakar, dan waktu yang dihabiskan. User dapat membuat aktivitas, kemudian dapat mengubah progres berat, menghapus aktivitas dan
 melihat aktivas joging yang telah dibuat. Aplikasi ini menggunakan Room Database untuk menyimpan data pengguna di perangkat lokal dan Google 
 Maps API untuk melacak rute jogging.Aplikasi ini tidak menyediakan auth sistem, hanya saja user perlu memasukan data sebelum mengakses 
 aplikasi seperti nama, jenis kelamin dan berat, kemudian aplikasi ini meminta untuk mengakses lokasi perangkat untuk dapat melacak rute joging.
 
-##Use Case 
+#Use Case 
 
 ![Jogging app](https://github.com/FakriSouyo/107_FinalProjectPAM/assets/63139619/b41bd1d4-4da6-4192-a126-ef4052d5c5b1)
 
