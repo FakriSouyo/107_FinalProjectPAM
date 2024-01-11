@@ -8,12 +8,12 @@ plugins {
 
 android {
     namespace = "com.example.aplikasijogging"
-    compileSdk = 34
+    compileSdk = 33
 
     defaultConfig {
         applicationId = "com.example.aplikasijogging"
-        minSdk = 34
-        targetSdk = 34
+        minSdk = 26
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
 
@@ -43,7 +43,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.4.3"
+        kotlinCompilerExtensionVersion = "1.3.2"
     }
     packaging {
         resources {
@@ -53,6 +53,9 @@ android {
 }
 
 dependencies {
+    implementation ("com.google.accompanist:accompanist-permissions:0.31.5-beta")
+    val lifecycle_version = "2.6.1"
+    val paging_version = "3.2.0"
 
     implementation ("androidx.core:core-ktx:1.10.1")
     implementation (platform("org.jetbrains.kotlin:kotlin-bom:1.8.0"))

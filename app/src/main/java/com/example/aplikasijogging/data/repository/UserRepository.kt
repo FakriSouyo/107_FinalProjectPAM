@@ -20,7 +20,8 @@ class UserRepository @Inject constructor(
     companion object {
         val USER_NAME = stringPreferencesKey("user_name")
         val USER_GENDER = stringPreferencesKey("user_gender")
-        val USER_BERAT_IN_KG = floatPreferencesKey("user_berat_in_kg")
+        val USER_WEIGHT_IN_KG = floatPreferencesKey("user_weight_in_kg")
+        val USER_WEEKLY_GOAL_IN_KM = floatPreferencesKey("user_weekly_goal_in_km")
         val USER_IMG_URI = stringPreferencesKey("user_img_uri")
     }
 
@@ -29,7 +30,8 @@ class UserRepository @Inject constructor(
         User(
             name = it[USER_NAME] ?: "",
             gender = Gender.valueOf(it[USER_GENDER] ?: Gender.PRIA.name),
-            beratInKg = it[USER_BERAT_IN_KG] ?: 0.0f,
+            weightInKg = it[USER_WEIGHT_IN_KG] ?: 0.0f,
+            weeklyGoalInKM = it[USER_WEEKLY_GOAL_IN_KM] ?: 0.0f,
             imgUri = if (dbImgUri.isNullOrBlank()) null else dbImgUri.toUri()
         )
     }
@@ -41,7 +43,8 @@ class UserRepository @Inject constructor(
     suspend fun updateUser(user: User) = dataStore.edit {
         it[USER_NAME] = user.name
         it[USER_GENDER] = user.gender.name
-        it[USER_BERAT_IN_KG] = user.beratInKg
+        it[USER_WEEKLY_GOAL_IN_KM] = user.weeklyGoalInKM
+        it[USER_WEIGHT_IN_KG] = user.weightInKg
         it[USER_IMG_URI] = user.imgUri?.toString() ?: ""
     }
 }
