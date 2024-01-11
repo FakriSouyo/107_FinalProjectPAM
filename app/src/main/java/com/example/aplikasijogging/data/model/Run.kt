@@ -1,4 +1,4 @@
-package com.example.aplikasijogging.model
+package com.example.aplikasijogging.data.model
 
 import android.graphics.Bitmap
 import androidx.room.Entity

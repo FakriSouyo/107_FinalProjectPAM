@@ -6,7 +6,7 @@ import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.example.aplikasijogging.model.Run
+import com.example.aplikasijogging.data.model.Run
 import kotlinx.coroutines.flow.Flow
 import java.util.Date
 

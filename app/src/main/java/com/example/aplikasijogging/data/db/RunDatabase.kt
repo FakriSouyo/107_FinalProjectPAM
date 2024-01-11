@@ -3,7 +3,7 @@ package com.example.aplikasijogging.data.db
 import androidx.room.Database
 import androidx.room.RoomDatabase
 import com.example.aplikasijogging.data.db.Dao.RunDao
-import com.example.aplikasijogging.model.Run
+import com.example.aplikasijogging.data.model.Run
 
 @Database(
     entities = [Run::class],
