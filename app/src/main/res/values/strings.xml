@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">aplikasiJogging</string>
+    <string name="MAPS_API_KEY">AIzaSyDGHf2Y8PNaM9mYIjCBWAjfB-RA1qLYTfA</string>
+
 </resources>
